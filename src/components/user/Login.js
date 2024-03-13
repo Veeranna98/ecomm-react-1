@@ -5,6 +5,8 @@ import Register from "./Register";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import "./Login.css";
 import { useState } from "react";
+import Cart from "../cart/Cart";
+import Products from "../product/Products";
 export default function Login() {
   const { flag, setFlag, user, setUser, users, setUsers } =
     useContext(UserContext);

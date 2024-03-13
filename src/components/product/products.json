@@ -4,55 +4,55 @@
         "name": "Java Chip Frappuccino",
         "desc":"We blend mocha sauce and Frappuccino chips with Frappuccino.",
         "price": "123",
-        "image": "/images/1.png"
+        "image": "/ecomm-react/images/1.png"
     },
     {
         "id": "2",
         "name": "Caramel Macchiato",
         "desc":"Freshly steamed milk with vanilla-flavored syrup is marked w...",
         "price": "321",
-        "image": "/images/2.png"
+        "image": "/ecomm-react/images/2.png"
     },
     {
         "id": "3",
         "name": "Pesto & Mozzarella Sandwich",
         "desc":"Panini bread with basil pesto sauce, tomatoes and mozzarella...",
         "price": "142",
-        "image": "/images/3.png"
+        "image": "/ecomm-react/images/3.png"
     },
     {
         "id": "4",
         "name": "Fox & Cupcake Mug",
         "desc":"Sip your favorite beverages in style with our Fox & Cupcake ...",
         "price": "195",
-        "image": "/images/4.png"
+        "image": "/ecomm-react/images/4.png"
     },
     {
         "id": "5",
         "name": "Diwali Blend",
         "desc":"Celebrate this Diwali in the best way we know how – with coffee...",
         "price": "200",
-        "image": "/images/5.png"
+        "image": "/ecomm-react/images/5.png"
     },
     {
         "id": "6",
         "name": "Almond Chocolates",
         "desc":"Delicious on its own or a perfect pairing with your favorite...",
         "price": "302",
-        "image": "/images/6.png"
+        "image": "/ecomm-react/images/6.png"
     },
     {
         "id": "7",
         "name": "Caffe Americano",
         "desc":"Rich in flavour, full-bodied espresso with hot water in true...",
         "price": "262",
-        "image": "/images/7.png"
+        "image": "/ecomm-react/images/7.png"
     },
     {
         "id": "8",
         "name": "Cold coffee",
         "desc":"Our signature rich in flavour espresso blended with delicate...",
         "price": "362",
-        "image": "/images/8.png"
+        "image": "/ecomm-react/images/8.png"
     }
 ]

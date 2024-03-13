@@ -15,13 +15,13 @@ export default function Products() {
       {products &&
         products.map((value) => (
           <div key={value.id} className="Product-items">
-            <div><img className="Product-img" src={`${PATH}${value.image}`} alt={value.name}/></div>
+            <div><img className="Product-img" src= {value.image} alt={value.name}/></div>
             <h3>{value.name}</h3>
             <p style={{textAlign:"justify",padding:"10px"}}>{value.desc}</p>
             <div className="priceBtn">
             <div className="priceTxt">₹{value.price}</div>
             <div className="Product-button"><AddButton id={value.id}/></div>
-            {/* <button className="Product-button" onClick={() => addtoCart(value.id)}>Add</button> */}
+            {/* {<button className="Product-button" onClick={() => addtoCart(value.id)}>Add</button> } */}
             </div>
           </div>
         ))}
