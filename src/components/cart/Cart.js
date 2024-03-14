@@ -94,6 +94,7 @@ export default function Cart() {
             <div className="Cart-order-value">
               <button onClick={submitOrder} className="Cart-place-order">
                 Submit Order
+        
               </button>
             </div>
           </div>

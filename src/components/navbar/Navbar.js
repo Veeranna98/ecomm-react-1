@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="title">Irish Cafe</div>
       <div><h3>Hi {user.name}!</h3></div>
       <div className="links">
-        <Link to={`${PATH}/products`}> <FaFirstOrderAlt /> Products </Link>
+        <Link to={`${PATH}/products`}>  <FaFirstOrderAlt /> Products </Link>
         <Link to={`${PATH}/order`}> <FcCamcorder />Orders({orders.length}) </Link>
         <Link to={`${PATH}/cart`}><FaCartArrowDown /> Cart({total}) </Link>
         <Link to={`${PATH}/`} onClick={() => setFlag((prev) => 0)}>
