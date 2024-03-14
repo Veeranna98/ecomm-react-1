@@ -22,7 +22,7 @@ function App() {
       <UserContext.Provider value={val}>
         {/* {flag === 0 || flag ===1 ? (
           <Login />
-        ) : ( */}{(
+        ) : (  */} {(
           <AppContextProvider>
             <Router>
               <Navbar />
