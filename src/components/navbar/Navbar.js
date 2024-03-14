@@ -13,6 +13,8 @@ export default function Navbar() {
   const PATH = process.env.REACT_APP_PATH;
   const values = Object.values(cartItems);
   const total = values.length;
+  
+ 
   return (
     <div className="navbar">
       <div className="title">Irish Cafe</div>
@@ -20,7 +22,10 @@ export default function Navbar() {
       <div className="links">
         <Link to={`${PATH}/products`}>  <FaFirstOrderAlt /> Products </Link>
         <Link to={`${PATH}/order`}> <FcCamcorder />Orders({orders.length}) </Link>
-        <Link to={`${PATH}/cart`}><FaCartArrowDown /> Cart({total}) </Link>
+        
+        {total > 0 && (
+          <Link to= { `${PATH}/cart`}> Cart({total}`) </Link>
+        )};
         <Link to={`${PATH}/`} onClick={() => setFlag((prev) => 0)}>
           Logout
         </Link>

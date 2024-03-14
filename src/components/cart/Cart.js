@@ -5,7 +5,7 @@ import { UserContext } from "../../App.js";
 import { useContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-// import prodlist from "../product/products.json"
+import prodlist from "../product/products.json"
 import "./Cart.css";
 import { Navigate } from "react-router-dom";
 export default function Cart() {
@@ -93,7 +93,8 @@ export default function Cart() {
             <div className="Cart-order-value">Order Value: ₹{orderValue}</div>
             <div className="Cart-order-value">
               <button onClick={submitOrder} className="Cart-place-order">
-                Submit Order
+                {/* Submit Order */}
+                Proced to Buy
         
               </button>
             </div>
